@@ -1,9 +1,9 @@
 
 
- ( function replace() {
+    ( function replace() {
 
 
-    let paragraphs = document.getElementsByTagName( 'body' );
+    let paragraphs = document.getElementsByTagName( 'head' );
 
     for ( let i = 0; i < paragraphs.length; i++ ) {
 
