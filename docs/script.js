@@ -1,9 +1,6 @@
-function no()
-{
-alert("Get Out Then.")
-}
 
-function replace() {
+
+ ( function replace() {
 
 
     let paragraphs = document.getElementsByTagName( 'body' );
@@ -14,4 +11,12 @@ function replace() {
 
     }
 
-}
+} ) ();
+
+// (function() {
+//
+//     let scriptElement = document.createElement('script');
+//     scriptElement.src = 'script.js';
+//     document.body.appendChild(scriptElement);
+//
+// })();
